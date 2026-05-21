@@ -2,7 +2,7 @@
 
 
 
-Por que o DDD ajudará a empresa a organizar o ecossistema (conforme o projeto cresce): pois o DDD ajuda na separação de conceitos da organização. Isso deixa a estrutura mais modular, segura e reduz o alto acoplamento entre as entidades.
+Por que o DDD ajudará a empresa a organizar o ecossistema (conforme o projeto cresce): pois o DDD ajuda na separação de conceitos da organização, e facilita a comunicação. Isso deixa a estrutura mais modular, escalável, segura, simples e reduz o alto acoplamento entre as entidades.
 
 
 
@@ -10,9 +10,14 @@ Por que o DDD ajudará a empresa a organizar o ecossistema (conforme o projeto c
 
 
 
-* Frete;
+* Rota;
+
+  * TipoEnvio
+  * Frete
 * Rastreamento;
 * Faturamento;
+
+  * ConciliacaoBancaria
 * Frota.
 
 
@@ -21,18 +26,32 @@ Por que o DDD ajudará a empresa a organizar o ecossistema (conforme o projeto c
 
 
 
-* 
-* 
+| Termo | Explicação | Código |
+
+
+
+* Tipo do Envio -> meio de transporte utilizado da rota : TipoEnvio
+* Frete -> taxa do envio : Frete
+* Conciliação Bancária -> verificação de registros bancários : ConciliacaoBancaria
+* Rota -> caminho traçado pelo veículo do pedido : Rota
+* Rastreamento -> localização do envio : Rastreamento
+* Faturamento -> informação da receita gerada: Faturamento
+* Frota -> conjunto de veículos da organização : Frota
+* Nota Fiscal -> registro de documento fiscal : NotaFiscal
 
 
 
 ##### Diagrama DDD:
 
-(com bounded contexts e shared kernels)
+(com bounded contexts e shared kernels).
 
 
 
+<img src="diagrama\_ddd.jpg" width="400px" height="600px" />
 
+
+
+Explicação das conexões no shared kernel: rota e rastreamento compartilham funcionalidades relacionadas com a localização do envio. 
 
 
 
