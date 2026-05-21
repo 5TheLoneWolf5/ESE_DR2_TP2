@@ -1,4 +1,4 @@
-# Sistema de Gestão de Operadora Logística
+# Sistema de Gestão de Operadora Logística (Domínio)
 
 
 
@@ -6,7 +6,7 @@ Por que o DDD ajudará a empresa a organizar o ecossistema (conforme o projeto c
 
 
 
-### Domínios e Subdomínios:
+### Subdomínios:
 
 
 
