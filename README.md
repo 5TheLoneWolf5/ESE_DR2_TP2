@@ -1,4 +1,4 @@
-# Sistema de Gestão de Operadora Logística (Domínio)
+# Sistema de Gestão de Operadora Logística | Domínio
 
 
 
@@ -15,7 +15,7 @@ Por que o DDD ajudará a empresa a organizar o ecossistema (conforme o projeto c
 * Frete - Core;
 * Faturamento - Generic;
 * ConciliacaoBancaria - Generic;
-* Frota - Supporting.
+* Veiculo - Supporting.
 
 
 
@@ -29,12 +29,14 @@ Por que o DDD ajudará a empresa a organizar o ecossistema (conforme o projeto c
 
 * Frete -> taxa do envio : Frete
 * Conciliação Bancária -> verificação de registros bancários : ConciliacaoBancaria
+* Logística -> gerenciamento da movimentação de recursos realizados pela frota : Logistica
+* Finança -> contexto relacionado ao fluxo de caixa : Financa
 * Rota -> caminho traçado pelo veículo do pedido : Rota
 * Rastreamento -> localização do envio : Rastreamento
 * Faturamento -> informação da receita gerada: Faturamento
 * Frota -> conjunto de veículos da organização : Frota
+* Veículo -> transporte utilizado para entregas : Veiculo
 * Nota Fiscal -> registro de documento fiscal : NotaFiscal
-* Tipo do Envio -> meio de transporte utilizado da rota : TipoEnvio
 
 
 ### Domínio | Diagrama DDD (strategic design):
@@ -42,7 +44,7 @@ Por que o DDD ajudará a empresa a organizar o ecossistema (conforme o projeto c
 
 
 
-<img src="diagrama_ddd.jpg" width="700px" height="900px" />
+<img src="dominio.jpg" width="700px" height="900px" />
 
 
 
@@ -50,5 +52,4 @@ Explicação das conexões no shared kernel: frete e faturamento compartilham fu
 
 
 
-A estrutura do projeto (com a divisão de domínios) está disponível dentro da pasta *estrutura* neste repositório.
-
+A estrutura do projeto (com a divisão de domínios) está disponível dentro da pasta *estrutura* neste repositório. Ela lembra uma arquitetura utilizando o padrão monólito. É possível implementar o projeto com uma arquitetura de micro-serviços.
