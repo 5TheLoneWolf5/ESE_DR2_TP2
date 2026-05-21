@@ -41,7 +41,7 @@ Por que o DDD ajudará a empresa a organizar o ecossistema (conforme o projeto c
 
 
 
-### Diagrama DDD <small>(Strategic Design)</small>:
+### Diagrama DDD (strategic Design):
 (com bounded contexts e shared kernels).
 
 
