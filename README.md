@@ -13,10 +13,8 @@ Por que o DDD ajudará a empresa a organizar o ecossistema (conforme o projeto c
 * Rota - Core;
 * Rastreamento - Core;
 * Frete - Core;
-
 * Faturamento - Generic;
 * ConciliacaoBancaria - Generic;
-
 * Frota - Supporting.
 
 
@@ -29,7 +27,6 @@ Por que o DDD ajudará a empresa a organizar o ecossistema (conforme o projeto c
 
 
 
-* Tipo do Envio -> meio de transporte utilizado da rota : TipoEnvio
 * Frete -> taxa do envio : Frete
 * Conciliação Bancária -> verificação de registros bancários : ConciliacaoBancaria
 * Rota -> caminho traçado pelo veículo do pedido : Rota
@@ -37,7 +34,7 @@ Por que o DDD ajudará a empresa a organizar o ecossistema (conforme o projeto c
 * Faturamento -> informação da receita gerada: Faturamento
 * Frota -> conjunto de veículos da organização : Frota
 * Nota Fiscal -> registro de documento fiscal : NotaFiscal
-
+* Tipo do Envio -> meio de transporte utilizado da rota : TipoEnvio
 
 
 ### Domínio | Diagrama DDD (strategic design):
@@ -49,7 +46,7 @@ Por que o DDD ajudará a empresa a organizar o ecossistema (conforme o projeto c
 
 
 
-Explicação das conexões no shared kernel: rota e rastreamento compartilham funcionalidades relacionadas com a localização do envio. 
+Explicação das conexões no shared kernel: frete e faturamento compartilham funcionalidades relacionadas com as taxas das entregas. Frota e rastreamento compartilham informações relacionadas ao percurso de veículos da frota.   
 
 
 
