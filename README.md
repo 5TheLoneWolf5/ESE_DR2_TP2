@@ -11,12 +11,13 @@ Por que o DDD ajudará a empresa a organizar o ecossistema (conforme o projeto c
 
 
 * Rota - Core;
-  * TipoEnvio - Supporting;
-  * Frete - Generic;
 * Rastreamento - Core;
-* Faturamento - Core;
-  * ConciliacaoBancaria - Supporting;
-* Frota - Core Domain.
+* Frete - Core;
+
+* Faturamento - Generic;
+* ConciliacaoBancaria - Generic;
+
+* Frota - Supporting.
 
 
 
