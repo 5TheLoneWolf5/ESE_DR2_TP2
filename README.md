@@ -47,7 +47,7 @@ Por que o DDD ajudará a empresa a organizar o ecossistema (conforme o projeto c
 
 
 
-<img src="diagrama\_ddd.jpg" width="400px" height="600px" />
+<img src="diagrama_ddd.jpg" width="700px" height="900px" />
 
 
 
