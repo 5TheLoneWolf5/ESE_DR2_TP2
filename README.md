@@ -26,17 +26,16 @@ Por que o DDD ajudará a empresa a organizar o ecossistema (conforme o projeto c
 | Termo | Explicação | Código |
 
 
-
-* Frete -> taxa do envio : Frete
 * Conciliação Bancária -> verificação de registros bancários : ConciliacaoBancaria
-* Logística -> gerenciamento da movimentação de recursos realizados pela frota : Logistica
-* Finança -> contexto relacionado ao fluxo de caixa : Financa
-* Rota -> caminho traçado pelo veículo do pedido : Rota
-* Rastreamento -> localização do envio : Rastreamento
 * Faturamento -> informação da receita gerada: Faturamento
+* Finança -> contexto relacionado ao fluxo de caixa : Financa
+* Frete -> taxa do envio : Frete
 * Frota -> conjunto de veículos da organização : Frota
-* Veículo -> transporte utilizado para entregas : Veiculo
+* Logística -> gerenciamento da movimentação de recursos realizados pela frota : Logistica
 * Nota Fiscal -> registro de documento fiscal : NotaFiscal
+* Rastreamento -> localização do envio : Rastreamento
+* Rota -> caminho traçado pelo veículo do pedido : Rota
+* Veículo -> transporte utilizado para entregas : Veiculo
 
 
 ### Domínio | Diagrama DDD (strategic design):
